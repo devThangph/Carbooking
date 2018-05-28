@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TblBooking" representedClassName="TblBooking" syncable="YES">
+        <attribute name="diemden" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diemdi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lydo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ngayden" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ngaydi" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TblCar" syncable="YES"/>
+    </entity>
+    <entity name="TblCar" representedClassName="TblCar" syncable="YES">
+        <attribute name="loaixe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soluong" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TblBooking" syncable="YES"/>
+    </entity>
+    <entity name="TblUser" representedClassName="TblUser" syncable="YES">
+        <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permission" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TblUser" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="TblCar" positionX="-243" positionY="153" width="164" height="88"/>
+        <element name="TblBooking" positionX="-495" positionY="63" width="128" height="133"/>
+    </elements>
+</model>

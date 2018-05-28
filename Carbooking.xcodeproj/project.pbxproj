@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82077E220B4522C00A0F812 /* TblBooking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82077DC20B4522C00A0F812 /* TblBooking+CoreDataClass.swift */; };
+		B82077E320B4522C00A0F812 /* TblBooking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82077DD20B4522C00A0F812 /* TblBooking+CoreDataProperties.swift */; };
+		B82077E420B4522C00A0F812 /* TblCar+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82077DE20B4522C00A0F812 /* TblCar+CoreDataClass.swift */; };
+		B82077E520B4522C00A0F812 /* TblCar+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82077DF20B4522C00A0F812 /* TblCar+CoreDataProperties.swift */; };
+		B82077E620B4522C00A0F812 /* TblUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82077E020B4522C00A0F812 /* TblUser+CoreDataClass.swift */; };
+		B82077E720B4522C00A0F812 /* TblUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82077E120B4522C00A0F812 /* TblUser+CoreDataProperties.swift */; };
+		B898F61720B01B0D005EE190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898F61620B01B0D005EE190 /* AppDelegate.swift */; };
+		B898F61920B01B0D005EE190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B898F61820B01B0D005EE190 /* ViewController.swift */; };
+		B898F61C20B01B0D005EE190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B898F61A20B01B0D005EE190 /* Main.storyboard */; };
+		B898F61F20B01B0D005EE190 /* Carbooking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B898F61D20B01B0D005EE190 /* Carbooking.xcdatamodeld */; };
+		B898F62120B01B0E005EE190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B898F62020B01B0E005EE190 /* Assets.xcassets */; };
+		B898F62420B01B0E005EE190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B898F62220B01B0E005EE190 /* LaunchScreen.storyboard */; };
+		B8BC8B1620BA9FB6003BD936 /* danhsachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC8B1520BA9FB6003BD936 /* danhsachTableViewCell.swift */; };
+		B8BC8B1820BAA126003BD936 /* dsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC8B1720BAA126003BD936 /* dsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B82077DC20B4522C00A0F812 /* TblBooking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TblBooking+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B82077DD20B4522C00A0F812 /* TblBooking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TblBooking+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B82077DE20B4522C00A0F812 /* TblCar+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TblCar+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B82077DF20B4522C00A0F812 /* TblCar+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TblCar+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B82077E020B4522C00A0F812 /* TblUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TblUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B82077E120B4522C00A0F812 /* TblUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TblUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B898F61320B01B0D005EE190 /* Carbooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carbooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B898F61620B01B0D005EE190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B898F61820B01B0D005EE190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B898F61B20B01B0D005EE190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B898F61E20B01B0D005EE190 /* Carbooking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carbooking.xcdatamodel; sourceTree = "<group>"; };
+		B898F62020B01B0E005EE190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B898F62320B01B0E005EE190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B898F62520B01B0E005EE190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BC8B1520BA9FB6003BD936 /* danhsachTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = danhsachTableViewCell.swift; sourceTree = "<group>"; };
+		B8BC8B1720BAA126003BD936 /* dsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B898F61020B01B0D005EE190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B82077E820B4524800A0F812 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B82077DC20B4522C00A0F812 /* TblBooking+CoreDataClass.swift */,
+				B82077DD20B4522C00A0F812 /* TblBooking+CoreDataProperties.swift */,
+				B82077DE20B4522C00A0F812 /* TblCar+CoreDataClass.swift */,
+				B82077DF20B4522C00A0F812 /* TblCar+CoreDataProperties.swift */,
+				B82077E020B4522C00A0F812 /* TblUser+CoreDataClass.swift */,
+				B82077E120B4522C00A0F812 /* TblUser+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B898F60A20B01B0D005EE190 = {
+			isa = PBXGroup;
+			children = (
+				B82077E820B4524800A0F812 /* CoreData */,
+				B898F61520B01B0D005EE190 /* Carbooking */,
+				B898F61420B01B0D005EE190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B898F61420B01B0D005EE190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B898F61320B01B0D005EE190 /* Carbooking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B898F61520B01B0D005EE190 /* Carbooking */ = {
+			isa = PBXGroup;
+			children = (
+				B898F61620B01B0D005EE190 /* AppDelegate.swift */,
+				B898F61820B01B0D005EE190 /* ViewController.swift */,
+				B898F61A20B01B0D005EE190 /* Main.storyboard */,
+				B898F62020B01B0E005EE190 /* Assets.xcassets */,
+				B898F62220B01B0E005EE190 /* LaunchScreen.storyboard */,
+				B898F62520B01B0E005EE190 /* Info.plist */,
+				B898F61D20B01B0D005EE190 /* Carbooking.xcdatamodeld */,
+				B8BC8B1520BA9FB6003BD936 /* danhsachTableViewCell.swift */,
+				B8BC8B1720BAA126003BD936 /* dsTableViewController.swift */,
+			);
+			path = Carbooking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B898F61220B01B0D005EE190 /* Carbooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B898F62820B01B0E005EE190 /* Build configuration list for PBXNativeTarget "Carbooking" */;
+			buildPhases = (
+				B898F60F20B01B0D005EE190 /* Sources */,
+				B898F61020B01B0D005EE190 /* Frameworks */,
+				B898F61120B01B0D005EE190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carbooking;
+			productName = Carbooking;
+			productReference = B898F61320B01B0D005EE190 /* Carbooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B898F60B20B01B0D005EE190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Pham Thang";
+				TargetAttributes = {
+					B898F61220B01B0D005EE190 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B898F60E20B01B0D005EE190 /* Build configuration list for PBXProject "Carbooking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B898F60A20B01B0D005EE190;
+			productRefGroup = B898F61420B01B0D005EE190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B898F61220B01B0D005EE190 /* Carbooking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B898F61120B01B0D005EE190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B898F62420B01B0E005EE190 /* LaunchScreen.storyboard in Resources */,
+				B898F62120B01B0E005EE190 /* Assets.xcassets in Resources */,
+				B898F61C20B01B0D005EE190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B898F60F20B01B0D005EE190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82077E220B4522C00A0F812 /* TblBooking+CoreDataClass.swift in Sources */,
+				B82077E420B4522C00A0F812 /* TblCar+CoreDataClass.swift in Sources */,
+				B898F61920B01B0D005EE190 /* ViewController.swift in Sources */,
+				B82077E320B4522C00A0F812 /* TblBooking+CoreDataProperties.swift in Sources */,
+				B82077E720B4522C00A0F812 /* TblUser+CoreDataProperties.swift in Sources */,
+				B8BC8B1620BA9FB6003BD936 /* danhsachTableViewCell.swift in Sources */,
+				B82077E620B4522C00A0F812 /* TblUser+CoreDataClass.swift in Sources */,
+				B82077E520B4522C00A0F812 /* TblCar+CoreDataProperties.swift in Sources */,
+				B898F61F20B01B0D005EE190 /* Carbooking.xcdatamodeld in Sources */,
+				B898F61720B01B0D005EE190 /* AppDelegate.swift in Sources */,
+				B8BC8B1820BAA126003BD936 /* dsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B898F61A20B01B0D005EE190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B898F61B20B01B0D005EE190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B898F62220B01B0E005EE190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B898F62320B01B0E005EE190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B898F62620B01B0E005EE190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B898F62720B01B0E005EE190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B898F62920B01B0E005EE190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Carbooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhamThang.Carbooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B898F62A20B01B0E005EE190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Carbooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhamThang.Carbooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B898F60E20B01B0D005EE190 /* Build configuration list for PBXProject "Carbooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B898F62620B01B0E005EE190 /* Debug */,
+				B898F62720B01B0E005EE190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B898F62820B01B0E005EE190 /* Build configuration list for PBXNativeTarget "Carbooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B898F62920B01B0E005EE190 /* Debug */,
+				B898F62A20B01B0E005EE190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B898F61D20B01B0D005EE190 /* Carbooking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B898F61E20B01B0D005EE190 /* Carbooking.xcdatamodel */,
+			);
+			currentVersion = B898F61E20B01B0D005EE190 /* Carbooking.xcdatamodel */;
+			path = Carbooking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B898F60B20B01B0D005EE190 /* Project object */;
+}
